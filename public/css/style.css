@@ -1,0 +1,33 @@
+body{
+	background: 444;
+}
+
+#canvas{
+	background: #AAA;
+	display: block;
+	float: left;
+	
+}
+#button{
+	position: relative;
+	width: 150px;
+
+}
+
+#chat_box {
+		position:relative;
+		width: 150px;
+		
+}
+#gameContainer{
+	width: 655px;
+	height:600px;
+}
+
+
+#chatModule{
+	width:150px;
+	height:475px;
+	border: 1px solid #999;
+	float: left;
+}

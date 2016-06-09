@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>		
+
+
+	<head>
+		
+		<link rel="stylesheet" href="css/style.css" type= "text/css">	   
+	   	<script src="http://localhost:3000/socket.io/socket.io.js"></script>	   
+	   
+	    <script type="text/javascript" src="easel.js"></script> 
+	    <script type="text/javascript" src="GameObjects/Piece.js"></script> 
+	    <script type="text/javascript" src="GameObjects/Tile.js"></script> 
+	    <script type="text/javascript" src="GameObjects/Board.js"></script>
+	    
+	    
+
+	    
+	   
+	   
+	    <script src="script.js" type="text/javascript"></script> 
+	    
+	
+	</head>
+	
+	<body id ="pageBody" width ="900">
+		<div id ="gameContainer">
+
+			<div width ="800">
+		 	<canvas id="canvas" width="500" height ="500"></canvas></div>
+		 	<div id="chatModule">
+				<ul id="chat_log">
+				</ul>
+				
+
+			</div>
+			<input type="text" name="chat_box" value="" id="chat_box" placeholder="type to chat..." />
+		 	
+		 	
+			
+		 	
+		 	<button type="button" id = "button">reset</button><br>
+		 	
+		 </div>
+	</body>
+</html>
+
+	
